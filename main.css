@@ -145,7 +145,7 @@ a {
     cursor: pointer;
 }
 
-.delete-btn {
+.deleteBtn {
     color: #ffffff;
     cursor: pointer;
     margin-top: 10px;
@@ -186,14 +186,14 @@ a {
     align-items: center;
 }
 
-.box2-description {
+.box2Description {
     display: none;
     justify-content: center;
     align-items: center;
 
 }
 
-.box2-form {
+.box2Form {
     display:flex;
     background-color: #dce3d2;
     border-radius: 12px;
@@ -202,14 +202,14 @@ a {
     margin-top: 20px;
 }
 
-.box2-form label {
+.box2Form label {
     display: flex;
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.box2-form_name {
+.box2FormName {
     display: block;
     width: 100%;
     padding: 10px;
@@ -218,30 +218,30 @@ a {
     background-color: #ffffff;
 }
 
-.box2-form_pay {
+.box2FormPay {
     margin-bottom: 10px;
 }
 
-.box2-form_swap {
+.box2FormSwap {
     font-weight: normal;
 }
 
-.box2-form__radio {
+.box2FormRadio {
     margin-left: auto;
 }
 
-.box2-form_quantity {
+.box2FormQuantity {
     margin-top: 10px;
 }
 
-.box2-form_comment {
+.box2FormComment {
     font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.box2-form_btm {
+.box2FormBtn {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -254,11 +254,11 @@ a {
     font-size: 24px;
 }
 
-.box2-form_btm:hover {
+.box2Form_btn:hover {
     background-color: #3e8e41;
 }
 
-.box2-check {
+.box2Check {
     display: none;
     justify-content: center;
     align-items: center;

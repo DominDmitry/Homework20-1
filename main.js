@@ -53,22 +53,22 @@
               boxForm.style.display = "block";
           });
           
-          const form = document.querySelector('.box2-form');
-          const tableName = document.querySelector('#table_name');
-          const tableCity = document.querySelector('#table_city');
-          const tableNovaPoshta = document.querySelector('#table_nova-poshta');
-          const tabPayment = document.querySelector('#table_payment');
-          const tableQuantity = document.querySelector('#table_quantity');
-          const tableComment = document.querySelector('#table_comment');
-          const tableProduct = document.querySelector('#table_product');
+          const form = document.querySelector('.box2Form');
+          const tableName = document.querySelector('#tableName');
+          const tableCity = document.querySelector('#tableCity');
+          const tableNovaPoshta = document.querySelector('#tableNovaPoshta');
+          const tabPayment = document.querySelector('#tablePayment');
+          const tableQuantity = document.querySelector('#tableQuantity');
+          const tableComment = document.querySelector('#tableComment');
+          const tableProduct = document.querySelector('#tableProduct');
           const boxForm = document.querySelector('.box2Description');
-          const boxTable = document.querySelector('.box2-check');
+          const boxTable = document.querySelector('.box2Check');
           
           form.addEventListener('submit', (event) => {
               event.preventDefault();
               const name = form.elements.name.value;
               const city = form.elements.city.value;
-              const novaPoshta = form.elements['nova-poshta'].value;
+              const novaPoshta = form.elements['novaPoshta'].value;
               const payment = form.elements.payment.value;
               const quantity = form.elements.quantity.value;
               const comment = form.elements.comment.value;
@@ -151,7 +151,7 @@
               event.preventDefault();
               const name = form.elements.name.value;
               const city = form.elements.city.value;
-              const novaPoshta = form.elements['nova-poshta'].value;
+              const novaPoshta = form.elements['novaPoshta'].value;
               const payment = form.elements.payment.value;
               const quantity = form.elements.quantity.value;
               const comment = form.elements.comment.value;

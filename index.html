@@ -68,12 +68,12 @@
     </section>
     <section class="box2">
         <div class="box2Description">
-            <form id="section2" class="box2-form" action="#" method="post" novalidate>
+            <form id="section2" class="box2Form" action="#" method="post" novalidate>
                 <label for="name">ПІБ:*</label>
-                <input class="box2-form_name" type="text" id="name" name="name" required><br><br>
+                <input class="box2FormName" type="text" id="name" name="name" required><br><br>
 
                 <label for="city">Місто:*</label>
-                <select class="box2-form-city" id="city" name="city" required>
+                <select class="box2FormCity" id="city" name="city" required>
                     <option value="">Оберіть Місто</option>
                     <option value="Киев">Київ</option>
                     <option value="Харьков">Харків</option>
@@ -81,57 +81,57 @@
                     <option value="Днепр">Дніпро</option>
                 </select><br><br>
 
-                <label for="nova-poshta">Склад Нової пошти:*</label>
-                <input class="box2-form_nova-poshta" type="text" id="nova-poshta" name="nova-poshta" required><br><br>
+                <label for="novaPoshta">Склад Нової пошти:*</label>
+                <input class="box2FormNovaPoshta" type="text" id="novaPoshta" name="novaPoshta" required><br><br>
 
-                <p class="box2-form_pay">Спосіб оплати:*</p>
-                <label class="box2-form_swap">
+                <p class="box2FormPay">Спосіб оплати:*</p>
+                <label class="box2FormSwap">
                     Накладений платіж
-                    <input class="box2-form__radio" type="radio" name="payment" value="cash-on-delivery" checked>
+                    <input class="box2FormRadio" type="radio" name="payment" value="cash-on-delivery" checked>
                 </label>
-                <label class="box2-form_swap">
+                <label class="box2FormSwap">
                     Банківська картка
-                    <input class="box2-form__radio" type="radio" name="payment" value="credit-card">
+                    <input class="box2FormRadio" type="radio" name="payment" value="credit-card">
                 </label>
                 <div>
                     <label  for="quantity">Кількість продукції:*</label>
-                    <input class="box2-form_quantity" type="number" id="quantity" name="quantity" value="1" min="1">
+                    <input class="box2FormQuantity" type="number" id="quantity" name="quantity" value="1" min="1">
                 </div>
                 <label for="comment">Коментар:*</label>
-                <textarea class="box2-form_comment" id="comment" name="comment" required></textarea>
-                <button class="box2-form_btm" type="submit">Оформити замовлення</button>
+                <textarea class="box2FormComment" id="comment" name="comment" required></textarea>
+                <button class="box2FormBtn" type="submit">Оформити замовлення</button>
             </form>
         </div>
-        <div class="box2-check">
+        <div class="box2Check">
             <table class="table">
                 <tbody>
                 <tr>
                     <td>ПІБ</td>
-                    <td id="table_name"></td>
+                    <td id="tableName"></td>
                 </tr>
                 <tr>
                     <td>Місто</td>
-                    <td id="table_city"></td>
+                    <td id="tableCity"></td>
                 </tr>
                 <tr>
                     <td>Адреса Нової пошти</td>
-                    <td id="table_nova-poshta"></td>
+                    <td id="tableNovaPoshta"></td>
                 </tr>
                 <tr>
                     <td>Спосіб оплати</td>
-                    <td id="table_payment"></td>
+                    <td id="tablePayment"></td>
                 </tr>
                 <tr>
                     <td>Кількість продукції</td>
-                    <td id="table_quantity"></td>
+                    <td id="tableQuantity"></td>
                 </tr>
                 <tr>
                     <td>Коментар</td>
-                    <td id="table_comment"></td>
+                    <td id="tableComment"></td>
                 </tr>
                 <tr>
                     <td>Информація о замовленні</td>
-                    <td id="table_product"></td>
+                    <td id="tableProduct"></td>
                 </tr>
                 </tbody>
             </table>
