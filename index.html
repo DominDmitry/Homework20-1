@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="body">
+    <section class="container">
+        <div class="catalog">
+            <h2 class="catalogTitle">Catalog</h2>
+            <ul class="catalogList">
+                <li id="catalog__item-01" class="catalogItem">Phone</li>
+                <li id="catalog__item-02" class="catalogItem">Laptop</li>
+                <li id="catalog__item-03" class="catalogItem">Computer</li>
+                
+            </ul>
+        </div>
+        <div class="product">
+            <h2 class="productTitle">Product</h2>
+            <ul id="productList-01" class="productList">
+                <li class="productItem">Iphone14</li>
+                <li class="productItem">Samsung S20</li>
+                <li class="productItem">Meizu M20</li>
+                <li class="productItem">Xiaomi</li>
+            </ul>
+            <ul id="productList-02" class="productList">
+                <li class="productItem">Samsunng</li>
+                <li class="productItem">Lenovo</li>
+                <li class="productItem">Xiaomi</li>
+                <li class="productItem">Asus</li>
+            </ul>
+            <ul id="productList-03" class="productList">
+                <li class="productItem">HP</li>
+                <li class="productItem">Acer</li>
+                <li class="productItem">Lenovo</li>
+                <li class="productItem">Arcline</li>
+            </ul>
+           
+        </div>
+        <div class="description">
+            <h2 class="descriptionTitle">Description</h2>
+            <p id="descriptionText-01" class="descriptionText">Iphone description text</p>
+            <p id="descriptionText-02" class="descriptionText">Samsung  description text</p>
+            <p id="descriptionText-03" class="descriptionText">Meizu  description text</p>
+            <p id="descriptionText-04" class="descriptionText">Xiaomi  description text</p>
+            <p id="descriptionText-05" class="descriptionText">Samsung  description text</p>
+            <p id="descriptionText-06" class="descriptionText">Lenovo  description text</p>
+            <p id="descriptionText-07" class="descriptionText">Xiaomi  description text</p>
+            <p id="descriptionText-08" class="descriptionText">Asus  description text</p>
+            <p id="descriptionText-09" class="descriptionText">HP  description text</p>
+            <p id="descriptionText-10" class="descriptionText">Aser  description text</p>
+            <p id="descriptionText-10" class="descriptionText">Lenovo  description text</p>
+            <p id="descriptionText-11" class="descriptionText">Arcline  description text</p>
+           
+            <button id="descriptionBtn"><a href="#section2">Buy</a></button>
+        </div>
+    </section>
+    <section class="orders">
+        <div class="ordersList">
+            <h2 class="ordersListTitle">Список заказов:</h2>
+            <div id="ordersList"></div>
+        </div>
+    </section>
+    <section class="block">
+        <button id="blockBtn">Мої замовлення</button>
+    </section>
+    <section class="box2">
+        <div class="box2Description">
+            <form id="section2" class="box2-form" action="#" method="post" novalidate>
+                <label for="name">ПІБ:*</label>
+                <input class="box2-form_name" type="text" id="name" name="name" required><br><br>
+
+                <label for="city">Місто:*</label>
+                <select class="box2-form-city" id="city" name="city" required>
+                    <option value="">Оберіть Місто</option>
+                    <option value="Киев">Київ</option>
+                    <option value="Харьков">Харків</option>
+                    <option value="Одесса">Одеса</option>
+                    <option value="Днепр">Дніпро</option>
+                </select><br><br>
+
+                <label for="nova-poshta">Склад Нової пошти:*</label>
+                <input class="box2-form_nova-poshta" type="text" id="nova-poshta" name="nova-poshta" required><br><br>
+
+                <p class="box2-form_pay">Спосіб оплати:*</p>
+                <label class="box2-form_swap">
+                    Накладений платіж
+                    <input class="box2-form__radio" type="radio" name="payment" value="cash-on-delivery" checked>
+                </label>
+                <label class="box2-form_swap">
+                    Банківська картка
+                    <input class="box2-form__radio" type="radio" name="payment" value="credit-card">
+                </label>
+                <div>
+                    <label  for="quantity">Кількість продукції:*</label>
+                    <input class="box2-form_quantity" type="number" id="quantity" name="quantity" value="1" min="1">
+                </div>
+                <label for="comment">Коментар:*</label>
+                <textarea class="box2-form_comment" id="comment" name="comment" required></textarea>
+                <button class="box2-form_btm" type="submit">Оформити замовлення</button>
+            </form>
+        </div>
+        <div class="box2-check">
+            <table class="table">
+                <tbody>
+                <tr>
+                    <td>ПІБ</td>
+                    <td id="table_name"></td>
+                </tr>
+                <tr>
+                    <td>Місто</td>
+                    <td id="table_city"></td>
+                </tr>
+                <tr>
+                    <td>Адреса Нової пошти</td>
+                    <td id="table_nova-poshta"></td>
+                </tr>
+                <tr>
+                    <td>Спосіб оплати</td>
+                    <td id="table_payment"></td>
+                </tr>
+                <tr>
+                    <td>Кількість продукції</td>
+                    <td id="table_quantity"></td>
+                </tr>
+                <tr>
+                    <td>Коментар</td>
+                    <td id="table_comment"></td>
+                </tr>
+                <tr>
+                    <td>Информація о замовленні</td>
+                    <td id="table_product"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

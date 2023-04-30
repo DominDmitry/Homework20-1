@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #f5f1f1;
+}
+
+.catalog {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 20%;
+   
+}
+
+.catalogTitle {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    color: black
+}
+
+.catalogList {
+    list-style: none;
+    padding: 5;
+}
+
+.catalogItem {
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #000000;
+    cursor: pointer;
+    color: aqua;
+}
+
+.product {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+    background-color: #000000;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.productTitle {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    color: #ffffff
+}
+
+#productList-01, #productList-02, #productList-03 {
+    display: none;
+}
+
+.productList {
+    list-style: none;
+    padding: 10;
+}
+
+.productItem {
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: #000000;
+}
+
+.descriptionTitle {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #ffffff
+}
+
+.descriptionText {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #000000;
+    position: relative;
+    display: none;
+    padding: 16px;
+}
+
+#descriptionBtn {
+    display: none;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    margin-top: 90px
+}
+
+.orders {
+    display: none;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #f5f1f1;
+}
+
+.ordersList {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgba(22, 22, 23, 0.8);
+    padding: 5px 20px 20px;
+}
+
+.ordersListTitle {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.created-time {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.delete-btn {
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.block {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #f5f1f1;
+}
+
+#blockBtn {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    margin: 20px 0 20px 60px
+}
+
+#blockBtn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2-description {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2-form {
+    display:flex;
+    background-color: #dce3d2;
+    border-radius: 12px;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.box2-form label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box2-form_name {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.box2-form_pay {
+    margin-bottom: 10px;
+}
+
+.box2-form_swap {
+    font-weight: normal;
+}
+
+.box2-form__radio {
+    margin-left: auto;
+}
+
+.box2-form_quantity {
+    margin-top: 10px;
+}
+
+.box2-form_comment {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box2-form_btm {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.box2-form_btm:hover {
+    background-color: #3e8e41;
+}
+
+.box2-check {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th,
+.table td {
+    border: 1px solid #000000;
+    padding: 10px;
+    font-size: 16px;
+}
